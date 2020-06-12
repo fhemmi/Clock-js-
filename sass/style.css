@@ -1,0 +1,51 @@
+body {
+  margin: 72px 140px 0;
+  background-color: #222;
+  color: #fff; }
+  body button {
+    font-family: 'Monserrat', sans-serif; }
+  body input {
+    font-family: 'Monserrat', sans-serif; }
+
+#controls {
+  display: inline-block;
+  width: 45%;
+  border-right: 1px solid #fff;
+  padding-bottom: 42px;
+  padding-right: 42px; }
+  #controls input {
+    width: 60%;
+    font-size: 1.875rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 6px;
+    font-weight: 200;
+    outline: none; }
+    #controls input:disabled {
+      background-color: #fff;
+      opacity: .6; }
+  #controls .input-group, #controls .input-group1 {
+    margin: 26px 0; }
+    #controls .input-group label, #controls .input-group1 label {
+      display: inline-block;
+      width: 24%;
+      font-weight: 200;
+      font-size: 1.875rem;
+      padding: 12px; }
+  #controls button {
+    background-color: #fff;
+    color: #222;
+    border: none;
+    outline: none;
+    padding: 12px 62px; }
+    #controls button:hover {
+      opacity: .9; }
+    #controls button:disabled {
+      opacity: .3; }
+
+h2 {
+  display: inline-block;
+  font-weight: 200;
+  font-size: 9rem;
+  margin: 12px 0;
+  padding-left: 100px; }

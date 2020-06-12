@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="sass/style.css">
+  </head>
+  <body>
+    <h1>ClockWise</h1>
+    <section id="controls">
+        <form>
+
+      <div class="input-group">
+        <label for="minutes-input">Minutes</label>
+        <input type="number" placeholder="0" id="minutes-input"  max="300" min="0">
+      </div>
+
+      <div class="input-group1">
+        <label for="seconds-input">Seconds</label>
+        <input type="number" placeholder="0" id="seconds-input"  max="59" min="0" step=5>
+      </div>
+        </form>
+
+      <button type="button" id="start-button" onclick="startTimer();" >Start</button>
+      <button type="button" id="stop-button"  onclick="stopTimer();" disabled>Stop</button>
+      <button type="button" id="pause-button" onclick="pauseTimer();" disabled>Pause</button>
+
+   </section>
+
+
+
+   <h2><span id="minutes">0</span>: <span id="seconds">00</span></h2>
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
